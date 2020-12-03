@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  width: 100%;
+}
+
+h2 {
+  color: #394867;
+  font-size: 1.9rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #f1f6f9;
+  border-width: 3px;
+  width: 80%;
+  margin: 40px auto;
+}
+
+/*** Header ***/
+.header {
+  width: 100%;
+  padding: 300px 0;
+  text-align: center;
+  color: #394867;
+  background-color: #f1f6f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: "Charm", cursive;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.tag-line h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+/*** Profile ***/
+.profile {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.profile img {
+  width: 200px;
+  margin-bottom: 20px;  
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  filter: brightness(50%), contrast(100%);
+}
+
+.profile p {
+  color: #3a3a3a;
+  font-size: 0.98rem;
+}
+
+/*** Skills ***/
+.skills {
+  margin: 60px auto;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.my-skills {
+  margin: 80px 40px;
+}
+
+.skill {
+  width: 60%;
+  margin: 0 auto 40px;
+  padding: 20px 30px;
+  text-align: left;
+  box-shadow: 0 4px 20px 0 rgba(134, 134, 134, 0.3);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill img {
+  width: 300px;
+}
+
+.skill h3 {
+  color: #00abdd;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 30px 0;
+}
+
+.skill p {
+  color: #3a3a3a;
+  font-size: 0.95rem;
+  line-height: 2;
+}
+
+.web-designing {
+  display: flex;
+}
+
+.photography {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/*** Contact ***/
+.contact {
+  text-align: center;
+  margin: 60px auto;
+  padding: 35px 0 40px;
+}
+
+.contact h3 {
+  color: #00abdd;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 50px 0 15px;
+}
+
+.contact p {
+  color: #3a3a3a;
+  font-size: 0.95rem;
+  margin-bottom: 50px;
+}
+
+.contact .btn {
+  padding: 15px 40px;
+  background-color: #f4f4f2;
+  color: #394867;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border: 2px solid #394867;
+  border-radius: 100px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.contact .btn:hover {
+  background-color: #394867;
+  color: #00abdd;
+}
+
+/*** Footer ***/
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #f1f6f9;
+  padding: 50px 0 40px;
+}
+
+.social-links {
+  color: #394867;
+  text-decoration: none;
+  margin: 20px;
+  font-weight: 500;
+}
+
+.social-links:hover {
+  color: #00abdd;
+}
+
+footer p {
+  margin-top: 35px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  opacity: 0.55;
+}
+
+footer p span {
+  text-decoration: underline 2px #00abdd;
+}
+
+@media (max-width: 1000px) {
+  hr {
+    margin: 10px auto;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .heading {
+    font-size: 1.3rem;
+  }
+
+  .tag-line h3 {
+    font-size: 0.95rem;
+  }
+
+  .profile img {
+    width: 150px;
+  }
+
+  .profile p {
+    font-size: 0.8rem;
+  }
+
+  .my-skills {
+    margin: 20px auto;
+    padding: 0 70px;
+  }
+
+  .skill {
+    width: 90%;
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  .skill img {
+    width: 45%;
+    height: 45%;
+    margin: 0 auto;
+  }
+
+  .skill h3 {
+    font-size: 1.2rem;
+  }
+
+  .skill p {
+    font-size: 0.8rem;
+    line-height: 1.9;
+  }
+
+  .web-designing {
+    flex-direction: column;
+  }
+
+  .photography {
+    flex-direction: column;
+  }
+
+  .contact {
+    margin: 40px auto;
+    padding: 20px 0 30px;
+  }
+
+  .contact h3 {
+    font-size: 1.1rem;
+    margin: 32px 0 5px;
+  }
+
+  .contact p {
+    font-size: 0.82rem;
+  }
+
+  .contact .btn {
+    font-size: 0.7rem;
+  }
+
+  footer {
+    padding: 30px 0 20px;
+  }
+
+  .social-links {
+    margin: 10px;
+    font-size: 0.8rem;
+  }
+
+  footer p {
+    margin-top: 25px;
+    font-size: 0.75rem;
+  }
+}
